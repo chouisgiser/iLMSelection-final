@@ -1,0 +1,5 @@
+,fold,role,familiarity,test set size,hit number,HR,MAE
+0,4,staff,familiar,5,3,0.6,0.9595614022702307
+1,4,staff,unfamiliar,8,4,0.5,0.8305442788498891
+2,4,student,familiar,9,3,0.3333333333333333,0.8947014716237484
+3,4,student,unfamiliar,8,5,0.625,0.8241359999561255
