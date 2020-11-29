@@ -1,13 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b619da33-b322-4d1e-b392-7625dc8f10be" name="Default Changelist" comment="" />
+    <list default="true" id="b619da33-b322-4d1e-b392-7625dc8f10be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold10_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold10_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold11_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold11_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold12_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold12_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold13_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold13_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold14_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold14_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold15_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold15_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold16_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold16_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold17_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold17_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold1_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold1_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold2_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold2_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold3_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold3_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold4_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold4_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold5_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold5_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold6_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold6_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold7_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold7_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold8_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold8_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold9_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold9_model_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold10_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold10_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold11_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold11_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold12_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold12_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold13_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold13_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold14_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold14_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold15_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold15_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold16_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold16_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold17_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold17_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold1_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold1_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold2_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold2_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold3_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold3_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold4_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold4_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold5_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold5_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold6_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold6_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold7_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold7_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold8_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold8_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold9_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold9_importance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold10_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold10_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold11_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold11_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold12_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold12_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold13_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold13_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold14_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold14_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold15_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold15_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold16_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold16_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold17_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold17_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold1_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold1_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold2_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold2_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold3_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold3_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold4_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold4_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold5_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold5_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold6_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold6_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold7_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold7_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold8_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold8_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold9_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold9_model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_comparison.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_comparison.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_fi.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_fi.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_wayfinders_hr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_wayfinders_mae.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_comparison.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_comparison.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_fi.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_fi.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_wayfinders_hr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_wayfinders_mae.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/feature_remove/familiar_model_feature_reduction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/feature_remove/familiar_model_feature_reduction.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/figures/feature_remove/unfamiliar_model_feature_reduction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/feature_remove/unfamiliar_model_feature_reduction.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_comparison.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_comparison.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_fi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_fi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_hr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_mae.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_mae.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/paired_sample_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/paired_sample_test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_model_comparison.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_model_comparison.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_hr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_mae.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_mae.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/feature_remove/familiar_feature_reduction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/feature_remove/familiar_feature_reduction.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/feature_remove/familiar_model_features.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/feature_remove/unfamiliar_model_features.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/experiment/hit_rate_decrease.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/experiment/hit_rate_decrease.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modeling/rel_ranking_familiarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/rel_ranking_familiarity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reporting/feature_remove_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporting/feature_remove_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reporting/model_comparison_box_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporting/model_comparison_box_plot.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="iLMSelection-v2.0" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gzkb86ZHo3VGlngkV72H5rp5pu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -142,10 +228,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.model_comparison_box_plot" />
+        <item itemvalue="Python.hit_rate_bar_plot" />
         <item itemvalue="Python.feature_remove_plot" />
         <item itemvalue="Python.hit_rate_decrease" />
         <item itemvalue="Python.feature_importance_bar_plot" />
-        <item itemvalue="Python.hit_rate_bar_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +258,20 @@
       <workItem from="1599766186230" duration="526000" />
       <workItem from="1600086318926" duration="1048000" />
       <workItem from="1600177232148" duration="1884000" />
+      <workItem from="1600368200249" duration="533000" />
+      <workItem from="1600976615752" duration="27000" />
+      <workItem from="1604677743411" duration="11423000" />
+      <workItem from="1604739457358" duration="1660000" />
+      <workItem from="1604826672891" duration="8797000" />
+      <workItem from="1604950415887" duration="15000" />
+      <workItem from="1605175971086" duration="1972000" />
+      <workItem from="1605198491785" duration="9567000" />
+      <workItem from="1605351461712" duration="1000" />
+      <workItem from="1605469520138" duration="5931000" />
+      <workItem from="1605516800349" duration="846000" />
+      <workItem from="1605558088433" duration="84000" />
+      <workItem from="1605722721867" duration="2000" />
+      <workItem from="1606645360416" duration="1931000" />
     </task>
     <servers />
   </component>
@@ -183,80 +283,135 @@
       <screen x="1680" y="0" width="2560" height="1440" />
     </state>
     <state x="2597" y="489" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599140349494" />
-    <state x="2635" y="392" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599659385295">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state x="2307" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604682782303">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
+    <state x="2307" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1604682782303" />
     <state x="2635" y="392" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599222509470" />
     <state x="2635" y="392" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1599659385295" />
-    <state width="2508" height="560" key="GridCell.Tab.0.bottom" timestamp="1600183127142">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="199" key="GridCell.Tab.0.bottom" timestamp="1606683532149">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="116" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599682789153" />
+    <state width="1628" height="199" key="GridCell.Tab.0.bottom/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1606683532149" />
+    <state width="1628" height="330" key="GridCell.Tab.0.bottom/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739153" />
+    <state width="1628" height="341" key="GridCell.Tab.0.bottom/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578756" />
     <state width="1628" height="385" key="GridCell.Tab.0.bottom/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835604" />
+    <state width="1628" height="174" key="GridCell.Tab.0.bottom/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605258464553" />
+    <state width="1628" height="339" key="GridCell.Tab.0.bottom/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171399" />
+    <state width="1628" height="210" key="GridCell.Tab.0.bottom/1680.0.1680.999/0.0.1680.1050@1680.0.1680.999" timestamp="1605177536670" />
     <state width="2508" height="378" key="GridCell.Tab.0.bottom/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599145158641" />
     <state width="1628" height="334" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599736916726" />
     <state width="2508" height="560" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127142" />
-    <state width="2508" height="560" key="GridCell.Tab.0.center" timestamp="1600183127140">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="199" key="GridCell.Tab.0.center" timestamp="1606683532148">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="116" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599682789152" />
+    <state width="1628" height="199" key="GridCell.Tab.0.center/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1606683532148" />
+    <state width="1628" height="330" key="GridCell.Tab.0.center/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739152" />
+    <state width="1628" height="341" key="GridCell.Tab.0.center/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578755" />
     <state width="1628" height="385" key="GridCell.Tab.0.center/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835603" />
+    <state width="1628" height="174" key="GridCell.Tab.0.center/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605258464550" />
+    <state width="1628" height="339" key="GridCell.Tab.0.center/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171398" />
+    <state width="1628" height="210" key="GridCell.Tab.0.center/1680.0.1680.999/0.0.1680.1050@1680.0.1680.999" timestamp="1605177536669" />
     <state width="2508" height="378" key="GridCell.Tab.0.center/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599145158640" />
     <state width="1628" height="334" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599736916725" />
     <state width="2508" height="560" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127140" />
-    <state width="2508" height="560" key="GridCell.Tab.0.left" timestamp="1600183127140">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="199" key="GridCell.Tab.0.left" timestamp="1606683532148">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="116" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599682789152" />
+    <state width="1628" height="199" key="GridCell.Tab.0.left/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1606683532148" />
+    <state width="1628" height="330" key="GridCell.Tab.0.left/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739152" />
+    <state width="1628" height="341" key="GridCell.Tab.0.left/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578754" />
     <state width="1628" height="385" key="GridCell.Tab.0.left/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835602" />
+    <state width="1628" height="174" key="GridCell.Tab.0.left/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605258464548" />
+    <state width="1628" height="339" key="GridCell.Tab.0.left/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171398" />
+    <state width="1628" height="210" key="GridCell.Tab.0.left/1680.0.1680.999/0.0.1680.1050@1680.0.1680.999" timestamp="1605177536668" />
     <state width="2508" height="378" key="GridCell.Tab.0.left/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599145158639" />
     <state width="1628" height="334" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599736916725" />
     <state width="2508" height="560" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127140" />
-    <state width="2508" height="560" key="GridCell.Tab.0.right" timestamp="1600183127141">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="199" key="GridCell.Tab.0.right" timestamp="1606683532148">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="116" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599682789153" />
+    <state width="1628" height="199" key="GridCell.Tab.0.right/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1606683532148" />
+    <state width="1628" height="330" key="GridCell.Tab.0.right/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739153" />
+    <state width="1628" height="341" key="GridCell.Tab.0.right/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578755" />
     <state width="1628" height="385" key="GridCell.Tab.0.right/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835604" />
+    <state width="1628" height="174" key="GridCell.Tab.0.right/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605258464552" />
+    <state width="1628" height="339" key="GridCell.Tab.0.right/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171399" />
+    <state width="1628" height="210" key="GridCell.Tab.0.right/1680.0.1680.999/0.0.1680.1050@1680.0.1680.999" timestamp="1605177536670" />
     <state width="2508" height="378" key="GridCell.Tab.0.right/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599145158640" />
     <state width="1628" height="334" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599736916726" />
     <state width="2508" height="560" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127141" />
-    <state width="2508" height="560" key="GridCell.Tab.1.bottom" timestamp="1600183127144">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="330" key="GridCell.Tab.1.bottom" timestamp="1605476739154">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
+    <state width="1628" height="330" key="GridCell.Tab.1.bottom/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1605473365187" />
+    <state width="1628" height="330" key="GridCell.Tab.1.bottom/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739154" />
+    <state width="1628" height="341" key="GridCell.Tab.1.bottom/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578757" />
     <state width="1628" height="385" key="GridCell.Tab.1.bottom/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835607" />
+    <state width="1628" height="339" key="GridCell.Tab.1.bottom/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605211939126" />
+    <state width="1628" height="339" key="GridCell.Tab.1.bottom/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171400" />
     <state width="2508" height="464" key="GridCell.Tab.1.bottom/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599137939958" />
     <state width="2508" height="345" key="GridCell.Tab.1.bottom/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599237747235" />
     <state width="2508" height="560" key="GridCell.Tab.1.bottom/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127144" />
-    <state width="2508" height="560" key="GridCell.Tab.1.center" timestamp="1600183127143">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="330" key="GridCell.Tab.1.center" timestamp="1605476739154">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
+    <state width="1628" height="330" key="GridCell.Tab.1.center/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1605473365187" />
+    <state width="1628" height="330" key="GridCell.Tab.1.center/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739154" />
+    <state width="1628" height="341" key="GridCell.Tab.1.center/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578756" />
     <state width="1628" height="385" key="GridCell.Tab.1.center/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835606" />
+    <state width="1628" height="339" key="GridCell.Tab.1.center/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605211939125" />
+    <state width="1628" height="339" key="GridCell.Tab.1.center/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171400" />
     <state width="2508" height="464" key="GridCell.Tab.1.center/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599137939958" />
     <state width="2508" height="345" key="GridCell.Tab.1.center/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599237747235" />
     <state width="2508" height="560" key="GridCell.Tab.1.center/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127143" />
-    <state width="2508" height="560" key="GridCell.Tab.1.left" timestamp="1600183127142">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="330" key="GridCell.Tab.1.left" timestamp="1605476739153">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
+    <state width="1628" height="330" key="GridCell.Tab.1.left/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1605473365186" />
+    <state width="1628" height="330" key="GridCell.Tab.1.left/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739153" />
+    <state width="1628" height="341" key="GridCell.Tab.1.left/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578756" />
     <state width="1628" height="385" key="GridCell.Tab.1.left/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835605" />
+    <state width="1628" height="339" key="GridCell.Tab.1.left/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605211939124" />
+    <state width="1628" height="339" key="GridCell.Tab.1.left/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171399" />
     <state width="2508" height="464" key="GridCell.Tab.1.left/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599137939957" />
     <state width="2508" height="345" key="GridCell.Tab.1.left/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599237747234" />
     <state width="2508" height="560" key="GridCell.Tab.1.left/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127142" />
-    <state width="2508" height="560" key="GridCell.Tab.1.right" timestamp="1600183127143">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state width="1628" height="330" key="GridCell.Tab.1.right" timestamp="1605476739154">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
+    <state width="1628" height="330" key="GridCell.Tab.1.right/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1605473365187" />
+    <state width="1628" height="330" key="GridCell.Tab.1.right/1680.0.1680.1050/0.0.1680.1001@1680.0.1680.1050" timestamp="1605476739154" />
+    <state width="1628" height="341" key="GridCell.Tab.1.right/1680.0.1680.1050/0.0.1680.1002@1680.0.1680.1050" timestamp="1605207578757" />
     <state width="1628" height="385" key="GridCell.Tab.1.right/1680.0.1680.1050/0.0.1680.1050@0.0.1680.1050" timestamp="1599684835606" />
+    <state width="1628" height="339" key="GridCell.Tab.1.right/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1605211939126" />
+    <state width="1628" height="339" key="GridCell.Tab.1.right/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605273171400" />
     <state width="2508" height="464" key="GridCell.Tab.1.right/1680.0.2560.1391/0.0.1680.1050@1680.0.2560.1391" timestamp="1599137939958" />
     <state width="2508" height="345" key="GridCell.Tab.1.right/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599237747235" />
     <state width="2508" height="560" key="GridCell.Tab.1.right/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1600183127143" />
-    <state x="2345" y="247" key="SettingsEditor" timestamp="1599134807763">
-      <screen x="1680" y="0" width="2560" height="1440" />
+    <state x="2116" y="153" key="SettingsEditor" timestamp="1605471424990">
+      <screen x="1680" y="0" width="1680" height="1050" />
     </state>
+    <state x="2116" y="153" key="SettingsEditor/1680.0.1680.1050/0.0.1680.1000@1680.0.1680.1050" timestamp="1605471424990" />
+    <state x="2116" y="153" key="SettingsEditor/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1605178288922" />
     <state x="2345" y="247" key="SettingsEditor/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599134807763" />
     <state width="1280" height="695" key="XDebugger.FullValuePopup" timestamp="1599645714160">
       <screen x="1680" y="0" width="2560" height="1440" />
     </state>
     <state width="1280" height="695" key="XDebugger.FullValuePopup/1680.0.2560.1440/0.0.1680.1001@1680.0.2560.1440" timestamp="1599237670254" />
     <state width="1280" height="695" key="XDebugger.FullValuePopup/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1599645714160" />
+    <state x="2085" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604832260782">
+      <screen x="1680" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2085" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.0.1680.1050/0.0.1680.999@1680.0.1680.1050" timestamp="1604832260782" />
+    <state x="2101" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1604696298910">
+      <screen x="1680" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2101" y="18" width="838" height="1032" key="search.everywhere.popup/1680.0.1680.1050/0.0.1680.1050@1680.0.1680.1050" timestamp="1604696298910" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,7 +443,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
-          <line>679</line>
+          <line>829</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -333,7 +488,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/reporting/feature_remove_plot.py</url>
-          <line>50</line>
+          <line>57</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -346,27 +501,102 @@
           <line>56</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>672</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>1086</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>690</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>698</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>706</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>704</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>712</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>600</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py</url>
+          <line>612</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/experiment/hit_rate_decrease.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/feature_remove_plot.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/feature_remove_plot.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/experiment/hit_rate_decrease.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/feature_remove_plot.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/reporting/feature_remove_plot.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$hit_rate_decrease.coverage" NAME="hit_rate_decrease Coverage Results" MODIFIED="1599749640255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/experiment" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$hit_rate_decrease.coverage" NAME="hit_rate_decrease Coverage Results" MODIFIED="1605471159848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/experiment" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$hit_rate_decrease_bar_plot.coverage" NAME="feature_remove_plot Coverage Results" MODIFIED="1599567445155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$rel_ranking_familiarity_cv.coverage" NAME="rel_ranking_familiarity_cv Coverage Results" MODIFIED="1599741827184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling/hyper_params_learning" />
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$feature_remove_plot.coverage" NAME="feature_remove_plot Coverage Results" MODIFIED="1599750469364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$feature_remove_plot.coverage" NAME="feature_remove_plot Coverage Results" MODIFIED="1605473851820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$rel_svm_clf_familiarity.coverage" NAME="rel_svm_clf_familiarity Coverage Results" MODIFIED="1599742596189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$k_fold_split_rank_combine.coverage" NAME="k_fold_split_rank_combine Coverage Results" MODIFIED="1599141040128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/processing/dataset" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$abs_gp_regression_familiarity.coverage" NAME="abs_gp_regression_familiarity Coverage Results" MODIFIED="1599209415973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling" />
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$rel_ranking_familiarity.coverage" NAME="rel_ranking_familiarity Coverage Results" MODIFIED="1599749077752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$rel_ranking_familiarity.coverage" NAME="rel_ranking_familiarity Coverage Results" MODIFIED="1604680886648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$k_fold_split_clf_combine.coverage" NAME="k_fold_split_clf_combine Coverage Results" MODIFIED="1599205150061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/processing/dataset" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$rel_rf_clf_familarity.coverage" NAME="rel_rf_clf_familarity Coverage Results" MODIFIED="1599728853223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$abs_linear_combination.coverage" NAME="abs_linear_combination Coverage Results" MODIFIED="1599205507757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/modeling" />
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$hit_rate_bar_plot.coverage" NAME="hit_rate_bar_plot Coverage Results" MODIFIED="1599749117932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$model_comparison_box_plot.coverage" NAME="model_comparison_box_plot Coverage Results" MODIFIED="1600177864463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$hit_rate_bar_plot.coverage" NAME="hit_rate_bar_plot Coverage Results" MODIFIED="1605476078724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$model_comparison_box_plot.coverage" NAME="model_comparison_box_plot Coverage Results" MODIFIED="1606645462108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$k_fold_split_fam_role.coverage" NAME="k_fold_split_fam_role Coverage Results" MODIFIED="1599140669449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/processing/dataset" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$sensitivity_analysis.coverage" NAME="sensitivity_analysis Coverage Results" MODIFIED="1599748389442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/experiment" />
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$familiarity_ranking_evaluation.coverage" NAME="familiarity_ranking_evaluation Coverage Results" MODIFIED="1599749109194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/experiment" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$familiarity_ranking_evaluation.coverage" NAME="familiarity_ranking_evaluation Coverage Results" MODIFIED="1604680986756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/experiment" />
     <SUITE FILE_PATH="coverage/iLMSelection_v2_0$k_fold_split_lr_combine.coverage" NAME="k_fold_split_lr_combine Coverage Results" MODIFIED="1599205053976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/processing/dataset" />
-    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$feature_importance_bar_plot.coverage" NAME="feature_importance_bar_plot Coverage Results" MODIFIED="1599749156449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
+    <SUITE FILE_PATH="coverage/iLMSelection_v2_0$feature_importance_bar_plot.coverage" NAME="feature_importance_bar_plot Coverage Results" MODIFIED="1604681033910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/reporting" />
   </component>
 </project>

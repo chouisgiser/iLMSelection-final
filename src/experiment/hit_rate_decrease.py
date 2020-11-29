@@ -76,8 +76,13 @@ def ranking_iteration(split_time, feature_index_list, feature_name_list):
         y_pred = ranker.predict(X_test)
 
         amin, amax = min(y_pred), max(y_pred)
+        # print(amin)
+        # print(amax)
         for index, value in enumerate(y_pred):
-            y_pred[index] = (value - amin) / (amax - amin) * 4 + 1
+            if amax == amin:
+                y_pred[index] = 0
+            else:
+                y_pred[index] = (value - amin) / (amax - amin) * 4 + 1
 
         # amin, amax = min(y_pred), max(y_pred)
         # for index, value in enumerate(y_pred):
@@ -98,12 +103,12 @@ def ranking_iteration(split_time, feature_index_list, feature_name_list):
         pred_score = 0
         true_num = 0
         absolute_error = 0
+
         for i in range(0, len(y_ground_splits)):
             test_index = y_ground_splits[i].tolist().index(max(y_ground_splits[i].tolist()))
             pred_index = y_pred_splits[i].tolist().index(max(y_pred_splits[i].tolist()))
             if test_index == pred_index:
                 true_num += 1
-
             # absolute_error += abs(y_ground_splits[i][0] - y_pred_splits[i][0]) + abs(
             #     y_ground_splits[i][1] - y_pred_splits[i][1])
 
@@ -113,9 +118,12 @@ def ranking_iteration(split_time, feature_index_list, feature_name_list):
             pred_score += ndcg_score(y_ground_splits[i], y_pred_splits[i], 1)
 
         ground_number_list.append(len(y_ground_splits))
-        # hr = true_num/len(y_ground_splits)
         hr_list.append(true_num / len(y_ground_splits))
         mae_list.append(absolute_error / len(y_ground_splits))
+        # ground_number_list.append(run_count)
+        # hr_list.append(true_num / run_count)
+        # mae_list.append(absolute_error / run_count)
+
 
     return hr_list, mae_list
 
@@ -126,9 +134,9 @@ def ranking_iteration(split_time, feature_index_list, feature_name_list):
 
 # familiar
 # feature_name_list = ['relevance', 'visibility', 'intensity', 'color', 'proximity2fe',
-#                      'wellknownness', 'shape_size', 'integration', 'proximity2dp',
-#                      'proximity2be', 'uniqueness', 'choice',  ]
-# feature_index_list = [12, 6, 1, 0, 8, 11, 2, 3, 7, 9, 10, 4, ]
+#                      'shape_size', 'proximity2dp', 'proximity2be', 'wellknownness',  'integration',
+#                      'uniqueness', 'choice']
+# feature_index_list = [12, 6, 1, 0, 8, 2, 7, 9, 11, 3, 10, 4,]
 
 # unfamiliar
 feature_name_list = ['intensity', 'visibility', 'color', 'relevance', 'proximity2be', 'proximity2fe',
@@ -138,14 +146,32 @@ feature_index_list = [1, 6, 0, 12, 9, 8, 7, 2, 10, 11, 4, 3,]
 
 
 for index in range(0, 11):
+    print(index)
+    # reducing from the least to the most important
     feature_index = feature_index_list[11 - index]
     feature_name = feature_name_list[11 - index]
+
+    # reducing from the most to the least important
+    # feature_index = feature_index_list[index]
+    # feature_name = feature_name_list[index]
+
     # feature_index_list.pop(index)
     # feature_name_list.pop(index)
 
     for split_time in range(1, 18):
 
+        # reducing from the least to the most important
         hr_list, mae_list = ranking_iteration(split_time, feature_index_list[0:11-index], feature_name_list[0:11-index])
+
+        # reducing from the most to the least important
+        # hr_list, mae_list = ranking_iteration(split_time, feature_index_list[index+1:12],
+        #                                       feature_name_list[index+1:12])
+
+        # reducing the single feature
+        # feature_index_list_tmp = feature_index_list[0:index] + feature_index_list[index+1:12]
+        # feature_name_list_tmp = feature_name_list[0:index] + feature_name_list[index + 1:12]
+        # hr_list, mae_list = ranking_iteration(split_time, feature_index_list_tmp,
+        #                                       feature_name_list_tmp)
 
         headers = ['removed_feature', 'HR', 'MAE']
 

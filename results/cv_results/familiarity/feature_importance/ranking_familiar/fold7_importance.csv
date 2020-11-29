@@ -1,7 +1,7 @@
 ,features,importance_gain
-0,color,3.861829996109009
-1,intensity,1.4493099451065063
-2,shape_size,1.1828199625015259
+0,color,4.458254189696163
+1,intensity,2.3426156491041183
+2,shape_size,1.3166529685258865
 3,integration,0.0
 4,choice,0.0
 5,visibility,8.088629722595215
@@ -10,4 +10,4 @@
 8,proximity2be,0.0
 9,uniqueness,0.0
 10,wellknownness,2.499150037765503
-11,relevance,14.658757895231247
+11,relevance,15.784330874681473

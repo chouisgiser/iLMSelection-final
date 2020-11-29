@@ -222,8 +222,10 @@ def ranking_iteration(split_time):
                                 # 'max_depth': 10,  # 5,
                                 # 'learning_rate': 0.05,  # 0.05,
                                 'n_estimators': 28,
-                                'num_leaves': 14,
-                                'max_depth': 6,
+                                # 'num_leaves': 14,
+                                'num_leaves': 28,
+                                # 'max_depth': 6,
+                                'max_depth': 9,
                                 'learning_rate': 0.113,
                                 }
         else:
@@ -239,6 +241,7 @@ def ranking_iteration(split_time):
                                 # 'learning_rate': 0.05,  # 0.05,
                                 'n_estimators': 36,
                                 'num_leaves': 23,
+                                # 'max_depth': 4,
                                 'max_depth': 4,
                                 'learning_rate': 0.049,
                                 }

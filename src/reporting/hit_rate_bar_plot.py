@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import seaborn as sns
 
 def plot_iteration_overall_model_4_groups():
     iters_dir = '../../results/cv_results/overall'
@@ -598,6 +599,8 @@ def plot_familiarity_model_by_mae(strategy, attribute):
         if index[1] == attribute:
             familiar_model_index_list.append(index)
     df_familiar_model = df_familiar_model[familiar_model_index_list]
+    df_familiar_model = df_familiar_model.to_frame()
+    df_familiar_model['model familiarity'] = ['familiar'] * df_familiar_model.shape[0]
 
     df_unfamiliar_model_group = df_unfamiliar_model_mae.groupby(['fold', 'familiarity']).mean()
     df_unfamiliar_model = df_unfamiliar_model_group['MAE']
@@ -606,11 +609,13 @@ def plot_familiarity_model_by_mae(strategy, attribute):
         if index[1] == attribute:
             unfamiliar_model_index_list.append(index)
     df_unfamiliar_model = df_unfamiliar_model[unfamiliar_model_index_list]
+    df_unfamiliar_model = df_unfamiliar_model.to_frame()
+    df_unfamiliar_model['model familiarity'] = ['unfamiliar'] * df_unfamiliar_model.shape[0]
 
     index = np.arange(len(df_familiar_model))
 
-    familiar_model_values = np.array(list(df_familiar_model))
-    unfamiliar_model_values = np.array(list(df_unfamiliar_model))
+    familiar_model_values = np.array(list(df_familiar_model['MAE']))
+    unfamiliar_model_values = np.array(list(df_unfamiliar_model['MAE']))
     bar_width = 0.35
 
     rects1 = ax.bar(index, familiar_model_values, bar_width, alpha=0.8, label='Familiar model', )
@@ -664,6 +669,151 @@ def plot_familiarity_model_by_mae(strategy, attribute):
     df_attribute_wayfinders = pd.concat([df_familiar_model, df_unfamiliar_model])
     df_attribute_wayfinders.to_csv(file_name, encoding='utf-8')
 
+def boxplot_familiarity_model_by_mae(strategy, attribute):
+    familiar_model_mae_dir = '../../results/cv_results/familiarity/evaluation/ranking_familiar/'
+    unfamiliar_model_mae_dir = '../../results/cv_results/familiarity/evaluation/ranking_unfamiliar/'
+
+    # familiar_model_fold_list = list()
+    # unfamiliar_model_fold_list = list()
+
+    df_familiar_model_mae = pd.DataFrame(columns=['fold', 'role', 'familiarity', 'test set size', 'hit number', 'HR', 'MAE'])
+    df_unfamiliar_model_mae = pd.DataFrame(columns=['fold', 'role', 'familiarity', 'test set size', 'hit number', 'HR', 'MAE'])
+
+    for fold_num in range(1, 18):
+        df_iter_familiar_mae = pd.read_csv(familiar_model_mae_dir + 'fold' + str(fold_num) + '_model_evaluation.csv',
+                                          index_col=0)
+        df_familiar_model_mae = pd.concat([df_familiar_model_mae, df_iter_familiar_mae], ignore_index=True)
+
+        df_iter_unfamiliar_mae = pd.read_csv(unfamiliar_model_mae_dir + 'fold' + str(fold_num) + '_model_evaluation.csv',
+                                            index_col=0)
+        df_unfamiliar_model_mae = pd.concat([df_unfamiliar_model_mae, df_iter_unfamiliar_mae], ignore_index=True)
+
+    df_familiar_model_mae['MAE'] = df_familiar_model_mae['MAE'].astype(float)
+
+    df_unfamiliar_model_mae['MAE'] = df_unfamiliar_model_mae['MAE'].astype(float)
+
+
+    # plt.style.use('ggplot')
+    # fig, ax = plt.subplots(figsize=(20, 10))
+
+    df_familiar_model_group = df_familiar_model_mae.groupby(['fold', 'familiarity']).mean()
+    df_familiar_model = df_familiar_model_group['MAE']
+    familiar_model_index_list = list()
+    for index, row in df_familiar_model.items():
+        if index[1] == attribute:
+            familiar_model_index_list.append(index)
+    df_familiar_model = df_familiar_model[familiar_model_index_list]
+
+    df_unfamiliar_model_group = df_unfamiliar_model_mae.groupby(['fold', 'familiarity']).mean()
+    df_unfamiliar_model = df_unfamiliar_model_group['MAE']
+    unfamiliar_model_index_list = list()
+    for index, row in df_unfamiliar_model.items():
+        if index[1] == attribute:
+            unfamiliar_model_index_list.append(index)
+    df_unfamiliar_model = df_unfamiliar_model[unfamiliar_model_index_list]
+
+    df_familiar_model = df_familiar_model.to_frame()
+    df_familiar_model['model type'] = ['Familiar-trained-model'] * df_unfamiliar_model.shape[0]
+
+    df_unfamiliar_model = df_unfamiliar_model.to_frame()
+    df_unfamiliar_model['model type'] = ['Unfamiliar-trained-model'] * df_unfamiliar_model.shape[0]
+    df_total = pd.concat([df_familiar_model, df_unfamiliar_model], axis=0)
+    df_total['MAE'] = df_total['MAE'].astype(float)
+    # plt.figure(figsize=(8, 5))
+    ax = sns.boxplot(x=df_total['model type'], y=df_total['MAE'], palette="Blues", )
+
+    font_label = {'family': 'Times New Roman',
+                  'weight': 'normal',
+                  'size': 12,
+                  }
+    ax.set_ylabel('Mean absolute error', font_label)
+    ax.set(xlabel=None)
+    # ax.set_xlabel('Familiarity by which models are trained', font_label)
+
+    font_tick = {'family': 'Times New Roman',
+                 'weight': 'normal',
+                 'size': 10,
+                 }
+    ax.set_xticklabels(ax.get_xticklabels(), font_tick)
+
+    plt.yticks(np.arange(1.0, 2.5, 0.2), fontsize=10, fontfamily='Times New Roman')
+
+    fig_dir = '../../results/reports/figures/'
+    plt.savefig(fig_dir + strategy + '/' + attribute + "_wayfinders_mae_boxplot.pdf", bbox_inches='tight')
+    plt.show()
+    #
+    # table_dir = '../../results/reports/tables/'
+    # file_name = table_dir + strategy + '/' + attribute + '_wayfinders_mae.csv'
+    # df_attribute_wayfinders = pd.concat([df_familiar_model, df_unfamiliar_model])
+    # df_attribute_wayfinders.to_csv(file_name, encoding='utf-8')
+
+def boxplot_familiarity_model_by_hr(strategy, attribute):
+    familiar_model_mae_dir = '../../results/cv_results/familiarity/evaluation/ranking_familiar/'
+    unfamiliar_model_mae_dir = '../../results/cv_results/familiarity/evaluation/ranking_unfamiliar/'
+
+    df_familiar_model_mae = pd.DataFrame(columns=['fold', 'role', 'familiarity', 'test set size', 'hit number', 'HR', 'MAE'])
+    df_unfamiliar_model_mae = pd.DataFrame(columns=['fold', 'role', 'familiarity', 'test set size', 'hit number', 'HR', 'MAE'])
+
+    for fold_num in range(1, 18):
+        df_iter_familiar_mae = pd.read_csv(familiar_model_mae_dir + 'fold' + str(fold_num) + '_model_evaluation.csv',
+                                          index_col=0)
+        df_familiar_model_mae = pd.concat([df_familiar_model_mae, df_iter_familiar_mae], ignore_index=True)
+
+        df_iter_unfamiliar_mae = pd.read_csv(unfamiliar_model_mae_dir + 'fold' + str(fold_num) + '_model_evaluation.csv',
+                                            index_col=0)
+        df_unfamiliar_model_mae = pd.concat([df_unfamiliar_model_mae, df_iter_unfamiliar_mae], ignore_index=True)
+
+    df_familiar_model_mae['HR'] = df_familiar_model_mae['HR'].astype(float)
+
+    df_unfamiliar_model_mae['HR'] = df_unfamiliar_model_mae['HR'].astype(float)
+
+    df_familiar_model_group = df_familiar_model_mae.groupby(['fold', 'familiarity']).mean()
+    df_familiar_model = df_familiar_model_group['HR']
+    familiar_model_index_list = list()
+    for index, row in df_familiar_model.items():
+        if index[1] == attribute:
+            familiar_model_index_list.append(index)
+    df_familiar_model = df_familiar_model[familiar_model_index_list]
+
+    df_unfamiliar_model_group = df_unfamiliar_model_mae.groupby(['fold', 'familiarity']).mean()
+    df_unfamiliar_model = df_unfamiliar_model_group['HR']
+    unfamiliar_model_index_list = list()
+    for index, row in df_unfamiliar_model.items():
+        if index[1] == attribute:
+            unfamiliar_model_index_list.append(index)
+    df_unfamiliar_model = df_unfamiliar_model[unfamiliar_model_index_list]
+
+    df_familiar_model = df_familiar_model.to_frame()
+    df_familiar_model['model type'] = ['Familiar-trained-model'] * df_familiar_model.shape[0]
+
+    df_unfamiliar_model = df_unfamiliar_model.to_frame()
+    df_unfamiliar_model['model type'] = ['Unfamiliar-trained-model'] * df_unfamiliar_model.shape[0]
+    df_total = pd.concat([df_familiar_model, df_unfamiliar_model], axis=0)
+    df_total['HR'] = df_total['HR'].astype(float)
+    # plt.figure(figsize=(8, 5))
+    ax = sns.boxplot(x=df_total['model type'], y=df_total['HR'], palette="Blues")
+
+    font_label = {'family': 'Times New Roman',
+                  'weight': 'normal',
+                  'size': 12,
+                  }
+    ax.set_ylabel('Hit rate', font_label)
+    ax.set(xlabel=None)
+    # ax.set_xlabel('Familiarity by which models are trained', font_label)
+
+    font_tick = {'family': 'Times New Roman',
+                 'weight': 'normal',
+                 'size': 10,
+                 }
+    ax.set_xticklabels(ax.get_xticklabels(), font_tick)
+
+    plt.yticks(np.arange(0.1, 1.1, 0.1), fontsize=10, fontfamily='Times New Roman')
+
+    fig_dir = '../../results/reports/figures/'
+    plt.savefig(fig_dir + strategy + '/' + attribute + "_wayfinders_hr_boxplot.pdf", bbox_inches='tight')
+    plt.show()
+
+
 def plot_familiarity_model_by_hr(strategy, attribute):
 
     # iters_dir = '../../results/dataset_split_iteration/familiarity'
@@ -685,37 +835,40 @@ def plot_familiarity_model_by_hr(strategy, attribute):
         df_unfamiliar_model_hr = pd.concat([df_unfamiliar_model_hr, df_iter_unfamiliar_hr], ignore_index=True)
         unfamiliar_model_fold_list.extend([fold_num] * df_iter_familiar_hr.shape[0])
 
-    df_familiar_model_hr['hr'] = df_familiar_model_hr['hit number']/df_familiar_model_hr['test set size']
-    df_familiar_model_hr['hr'] = df_familiar_model_hr['hr'].astype(float)
+    # df_familiar_model_hr['hr'] = df_familiar_model_hr['hit number']/df_familiar_model_hr['test set size']
+    df_familiar_model_hr['HR'] = df_familiar_model_hr['HR'].astype(float)
     df_familiar_model_hr['fold'] = familiar_model_fold_list
 
-    df_unfamiliar_model_hr['hr'] = df_unfamiliar_model_hr['hit number']/df_unfamiliar_model_hr['test set size']
-    df_unfamiliar_model_hr['hr'] = df_unfamiliar_model_hr['hr'].astype(float)
+    # df_unfamiliar_model_hr['hr'] = df_unfamiliar_model_hr['hit number']/df_unfamiliar_model_hr['test set size']
+    df_unfamiliar_model_hr['HR'] = df_unfamiliar_model_hr['HR'].astype(float)
     df_unfamiliar_model_hr['fold'] = unfamiliar_model_fold_list
 
-    # plt.style.use('ggplot')
     fig, ax = plt.subplots(figsize=(20, 10))
 
     df_familiar_model_group = df_familiar_model_hr.groupby(['fold', 'familiarity']).mean()
-    df_familiar_model = df_familiar_model_group['hr']
+    df_familiar_model = df_familiar_model_group['HR']
     familiar_model_index_list = list()
     for index, row in df_familiar_model.items():
         if index[1] == attribute:
             familiar_model_index_list.append(index)
     df_familiar_model = df_familiar_model[familiar_model_index_list]
+    df_familiar_model = df_familiar_model.to_frame()
+    df_familiar_model['model familiarity'] = ['familiar'] * df_familiar_model.shape[0]
 
     df_unfamiliar_model_group = df_unfamiliar_model_hr.groupby(['fold', 'familiarity']).mean()
-    df_unfamiliar_model = df_unfamiliar_model_group['hr']
+    df_unfamiliar_model = df_unfamiliar_model_group['HR']
     unfamiliar_model_index_list = list()
     for index, row in df_unfamiliar_model.items():
         if index[1] == attribute:
             unfamiliar_model_index_list.append(index)
     df_unfamiliar_model = df_unfamiliar_model[unfamiliar_model_index_list]
+    df_unfamiliar_model = df_unfamiliar_model.to_frame()
+    df_unfamiliar_model['model familiarity'] = ['unfamiliar'] * df_unfamiliar_model.shape[0]
 
     index = np.arange(len(df_familiar_model))
 
-    familiar_model_values = np.array(list(df_familiar_model))
-    unfamiliar_model_values = np.array(list(df_unfamiliar_model))
+    familiar_model_values = np.array(list(df_familiar_model['HR']))
+    unfamiliar_model_values = np.array(list(df_unfamiliar_model['HR']))
     bar_width = 0.35
 
     rects1 = ax.bar(index, familiar_model_values, bar_width, alpha=0.8, label='Familiar model', )
@@ -738,11 +891,8 @@ def plot_familiarity_model_by_hr(strategy, attribute):
                         '6', '7', '8', '9', '10',
                         '11', '12', '13', '14', '15',
                         '16', '17' ], font_xstick)
-    # ax.set_yticklabels(font_xstick)
 
-    # y_labels = pd_total['features']
     plt.yticks(np.arange(0, 1.1, 0.1), fontsize=16, fontfamily='Times New Roman')
-    # plt.xticks(fontsize='20', fontfamily='Times New Roman')
 
     font_legend = {'family': 'Times New Roman',
                    'weight': 'normal',
@@ -934,8 +1084,10 @@ def plot_unfamiliar_model():
 
 
 for familiarity in ['familiar', 'unfamiliar']:
-    plot_familiarity_model_by_mae(strategy='familiarity', attribute=familiarity)
-    plot_familiarity_model_by_hr(strategy='familiarity', attribute=familiarity)
+    boxplot_familiarity_model_by_hr(strategy='familiarity', attribute=familiarity)
+    boxplot_familiarity_model_by_mae(strategy='familiarity', attribute=familiarity)
+    # plot_familiarity_model_by_mae(strategy='familiarity', attribute=familiarity)
+    # plot_familiarity_model_by_hr(strategy='familiarity', attribute=familiarity)
 
 
 

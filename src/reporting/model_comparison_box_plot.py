@@ -60,14 +60,14 @@ def plot_model_hr_box(familiarity):
     df_rf_model = df_rf_model.groupby(['fold']).mean()
     df_svm_model = df_svm_model.groupby(['fold']).mean()
 
-    df_lambda_model['model type'] = ['Ours'] * df_lambda_model.shape[0]
+    df_lambda_model['model type'] = ['Proposed'] * df_lambda_model.shape[0]
     df_lc_model['model type'] = ['LC'] * df_lc_model.shape[0]
     df_gp_model['model type'] = ['GP'] * df_gp_model.shape[0]
     df_svm_model['model type'] = ['SVM'] * df_svm_model.shape[0]
     df_rf_model['model type'] = ['RF'] * df_rf_model.shape[0]
 
 
-    df_total = pd.concat([df_total, df_lc_model, df_gp_model,  df_svm_model, df_rf_model, df_lambda_model], ignore_index=True, axis=0)
+    df_total = pd.concat([df_total, df_lc_model, df_gp_model,  df_rf_model, df_svm_model, df_lambda_model], ignore_index=True, axis=0)
     # df_total['hr'] = df_total['hit number']/df_total['test set size']
     # df_total['hr'] = df_total['hit rate']
     df_total['HR'] = df_total['HR'].astype(float)
