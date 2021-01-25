@@ -3,83 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b619da33-b322-4d1e-b392-7625dc8f10be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold10_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold10_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold11_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold11_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold12_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold12_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold13_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold13_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold14_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold14_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold15_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold15_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold16_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold16_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold17_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold17_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold1_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold1_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold2_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold2_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold3_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold3_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold4_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold4_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold5_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold5_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold6_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold6_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold7_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold7_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold8_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold8_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold9_model_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/evaluation/ranking_familiar/fold9_model_evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold10_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold10_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold11_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold11_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold12_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold12_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold13_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold13_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold14_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold14_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold15_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold15_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold16_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold16_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold17_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold17_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold1_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold1_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold2_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold2_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold3_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold3_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold4_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold4_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold5_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold5_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold6_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold6_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold7_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold7_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold8_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold8_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold9_importance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/feature_importance/ranking_familiar/fold9_importance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold10_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold10_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold11_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold11_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold12_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold12_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold13_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold13_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold14_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold14_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold15_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold15_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold16_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold16_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold17_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold17_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold1_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold1_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold2_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold2_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold3_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold3_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold4_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold4_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold5_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold5_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold6_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold6_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold7_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold7_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold8_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold8_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold9_model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cv_results/familiarity/models/ranking_familiar/fold9_model.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_comparison.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_comparison.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_fi.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_model_fi.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_wayfinders_hr.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/familiar_wayfinders_mae.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_comparison.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_comparison.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_fi.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_model_fi.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_wayfinders_hr.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/familiarity/unfamiliar_wayfinders_mae.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/feature_remove/familiar_model_feature_reduction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/feature_remove/familiar_model_feature_reduction.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/figures/feature_remove/unfamiliar_model_feature_reduction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/figures/feature_remove/unfamiliar_model_feature_reduction.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_comparison.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_comparison.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_fi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_model_fi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_hr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_mae.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/familiar_wayfinders_mae.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/paired_sample_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/paired_sample_test.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_model_comparison.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_model_comparison.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_hr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_mae.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_wayfinders_mae.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/feature_remove/familiar_feature_reduction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/feature_remove/familiar_feature_reduction.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/feature_remove/familiar_model_features.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/tables/feature_remove/unfamiliar_model_features.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/hit_rate_decrease.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/experiment/hit_rate_decrease.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modeling/rel_ranking_familiarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/rel_ranking_familiarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reporting/feature_remove_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporting/feature_remove_plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporting/hit_rate_bar_plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reporting/model_comparison_box_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reporting/model_comparison_box_plot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/results/reports/tables" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -272,6 +195,8 @@
       <workItem from="1605558088433" duration="84000" />
       <workItem from="1605722721867" duration="2000" />
       <workItem from="1606645360416" duration="1931000" />
+      <workItem from="1607030621987" duration="249000" />
+      <workItem from="1607669609037" duration="93000" />
     </task>
     <servers />
   </component>
