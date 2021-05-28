@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b1f4827-d6e0-4700-8821-0dba5a5b2b31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/iLMSelection-final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iLMSelection-final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/features/salience_total.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/features/salience_total.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_model_fi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/tables/familiarity/unfamiliar_model_fi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/dataset/k_fold_split_fam_role.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/dataset/k_fold_split_fam_role.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ogysi2L8CSDgifEvd1VOIEzknx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b1f4827-d6e0-4700-8821-0dba5a5b2b31" name="Default Changelist" comment="" />
+      <created>1613722737030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613722737030</updated>
+      <workItem from="1613722740604" duration="64000" />
+      <workItem from="1613723022425" duration="319000" />
+      <workItem from="1615711108384" duration="3467000" />
+      <workItem from="1615746167149" duration="42000" />
+      <workItem from="1615746250058" duration="17000" />
+      <workItem from="1616582156582" duration="14000" />
+      <workItem from="1619946489761" duration="464000" />
+      <workItem from="1621439770931" duration="1487000" />
+      <workItem from="1621838941996" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
